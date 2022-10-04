@@ -186,7 +186,6 @@ $(document).ready(function() {
 	});
 	$('body').on('click', '.overlay', function(event) {
 	  	$('.header .search').removeClass('show');
-	  	('.header .search').removeClass('show');
 	  	$('.user ul').removeClass('show');
 	  	removeOverlay('body');
 	  	removeOverlay('.header .container');
